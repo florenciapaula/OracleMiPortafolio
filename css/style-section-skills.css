@@ -29,7 +29,17 @@
         position: relative;
         top: 6rem;
         left: 1rem;
+        width: 2rem;
       }
+
+      #skills-div div:hover,
+      #hobbies-div div:hover{
+        -webkit-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1);
+        box-shadow: 1px 5px 14px rgba(0, 0, 0, 10);
+        z-index: 1;
+      }
+
       #skills-div div p,
       #hobbies-div div p {
         position: relative;
