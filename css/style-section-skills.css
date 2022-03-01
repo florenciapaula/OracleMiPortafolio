@@ -1,0 +1,137 @@
+/*STYLE SKILLS & HOBBIES*/
+
+
+/*PC-NB*/
+@media only screen and (max-width: 2900px) {
+    #skills-section {
+        padding: 2rem 6rem;
+        background-color: #f5f5f5;
+      }
+      #titulos-h2 {
+        padding-top: 3rem;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+      }
+      #skills-div {
+        padding: 4rem 6rem;
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15% 15% 15%;
+        justify-content: space-between;
+      }
+      #skills-div div,
+      #hobbies-div div {
+        background-color: white;
+        height: 170px;
+      }
+      #skills-div div img,
+      #hobbies-div div img {
+        position: relative;
+        top: 6rem;
+        left: 1rem;
+      }
+      #skills-div div p,
+      #hobbies-div div p {
+        position: relative;
+        top: 6.5rem;
+        left: 1rem;
+      }
+      #hobbies-div {
+        padding: 4rem 6rem;
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15% 15% 15%;
+        justify-content: space-between;
+      }
+}
+/*TABLET*/
+@media only screen and (max-width: 1100px) {
+    #skills-section {
+        width: 100%;
+        padding: 2rem 2rem;
+        background-color: #f5f5f5;
+      }
+      #titulos-h2 {
+        padding-top: 2rem;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+      }
+      #skills-div {
+        padding: 1rem 0rem;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        row-gap: 2rem;
+        justify-content: space-between;
+      }
+      #skills-div div,
+      #hobbies-div div {
+        background-color: white;
+        height: 170px;
+      }
+      #skills-div div img,
+      #hobbies-div div img {
+        position: relative;
+        top: 6rem;
+        left: 1rem;
+      }
+      #skills-div div p,
+      #hobbies-div div p {
+        position: relative;
+        top: 6.5rem;
+        left: 1rem;
+      }
+      #hobbies-div {
+        padding: 1rem 0rem;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        row-gap: 2rem;
+        justify-content: space-between;
+      }
+}
+/*MOBILE*/
+@media only screen and (max-width: 550px) {
+    #skills-section {
+        width: 100%;
+        padding: 1rem 2rem;
+        background-color: #f5f5f5;
+      }
+      #titulos-h2 {
+        padding-top: 1rem;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+      }
+      #skills-div {
+        padding: 1rem 0rem;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        row-gap: 1rem;
+        column-gap: 1rem;
+        justify-content: center;
+      }
+      #skills-div div,
+      #hobbies-div div {
+        background-color: white;
+        height: 170px;
+      }
+      #skills-div div img,
+      #hobbies-div div img {
+        position: relative;
+        top: 6rem;
+        left: 1rem;
+      }
+      #skills-div div p,
+      #hobbies-div div p {
+        position: relative;
+        top: 6.5rem;
+        left: 1rem;
+      }
+      #hobbies-div {
+        padding: 1rem 0rem;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        row-gap: 1rem;
+        column-gap: 1rem;
+        justify-content: center;
+      }
+}

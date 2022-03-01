@@ -1,0 +1,98 @@
+/*STYLE EDUCATION*/
+
+
+/*PC-NB*/
+@media only screen and (max-width: 2900px) {
+   
+    #education-section {
+        padding: 2rem 6rem;
+        background-color: #eaf2fd;
+      }
+      #education-div{
+        padding: 2rem 6rem;
+        display:grid;
+        grid-template-columns: 30% 30% 30%;
+        justify-content: space-between;
+      }
+      #education-div-img{
+        background-color: white;
+        
+      }
+      #education-div-img img{
+        display:block;
+        margin: auto;
+        width: 80%;
+        padding:2rem 0rem;
+      }
+      #label-div p:first-child{
+        padding:1rem 0rem;
+        font-size: 22px;
+        font-weight: 700;
+      }
+}
+/*TABLET*/
+@media only screen and (max-width: 1100px) {
+    #education-section {
+        width: 100%;
+        padding: 2rem 2rem;
+        background-color: #eaf2fd;
+      }
+      #education-div{
+        padding: 2rem 0rem;
+        display:grid;
+        grid-template-columns: 30% 30% 30%;
+        justify-content: space-between;
+      }
+      #education-div-img{
+        background-color: white;
+      }
+      #education-div-img img{
+        display:block;
+        margin: auto;
+        width: 50%;
+        padding:2rem 0rem;
+      }
+      #label-div p:first-child{
+        padding:1rem 0rem 0rem 0rem;
+        font-size: 16px;
+        font-weight: 700;
+      }
+      #label-div p:last-child{
+        padding:0.2rem 0rem;
+        font-size: 14px;
+        font-weight: 500;
+      }
+}
+/*MOBILE*/
+@media only screen and (max-width: 550px) {
+    #education-section {
+        width: 100%;
+        padding: 2rem 2rem;
+        background-color: #eaf2fd;
+      }
+      #education-div{
+        padding: 2rem 0rem;
+        display:grid;
+        grid-template-columns: 30% 30% 30%;
+        justify-content: space-between;
+      }
+      #education-div-img{
+        background-color: white;
+      }
+      #education-div-img img{
+        display:block;
+        margin: auto;
+        width: 50%;
+        padding:2rem 0rem;
+      }
+      #label-div p:first-child{
+        padding:1rem 0rem 0rem 0rem;
+        font-size: 16px;
+        font-weight: 700;
+      }
+      #label-div p:last-child{
+        padding:0.2rem 0rem;
+        font-size: 14px;
+        font-weight: 500;
+      }  
+}

@@ -1,0 +1,156 @@
+/*STYLE EXPERIENCE*/
+
+
+/*PC-NB*/
+@media only screen and (max-width: 2900px) {
+    #experience-section {
+        padding: 2rem 10rem;
+        background-color: #f5f5f5;
+      }
+      #experience-section div {
+        justify-content: space-between;
+      }
+      #div-left {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        margin-top: 2rem;
+      }
+      #div-right {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        margin-top: 2rem;
+      }
+      #experience-section div div img {
+        width: 100%;
+        height: auto;
+      }
+      #buttons h3 {
+        font-size: 22px;
+        font-weight: 700;
+        padding-bottom: 0.5rem;
+      }
+      #buttons {
+        margin-top: 45%;
+        margin-left: 10%;
+        display: block;
+      }
+      #button-repo {
+        margin: 0.5rem 0rem;
+        border: 1px solid #2a7ae4;
+        box-sizing: border-box;
+        font-size: 16px;
+        color: #2a7ae4;
+        height: 51px;
+        width: 105px;
+      }
+      #button-demo {
+        background-color: #2a7ae4;
+        margin: 0.5rem 0.5rem;
+        border: 1px solid #2a7ae4;
+        box-sizing: border-box;
+        font-size: 16px;
+        color: white;
+        height: 51px;
+        width: 105px;
+      }
+    
+}
+/*TABLET*/
+@media only screen and (max-width: 1100px) {
+    #experience-section {
+        width: 100%;
+        padding: 0rem 2rem;
+        background-color: #f5f5f5;
+      }
+    
+      #div-left{
+        display: flex;
+        flex-direction: column;
+      }
+      #div-right{
+        display: flex;
+        flex-flow: column-reverse  wrap-reverse;
+      }
+      #experience-section div div img {
+        width: 100%;
+        height: auto;
+      }
+      #buttons h3 {
+        font-size: 22px;
+        font-weight: 700;
+      }
+      #buttons {
+          justify-content: start;
+          margin-top: 0px;
+          margin-left:0px;
+      }
+      #button-repo {
+        margin: 0.5rem 0rem;
+        border: 1px solid #2a7ae4;
+        box-sizing: border-box;
+        font-size: 14px;
+        color: #2a7ae4;
+        height: 40px;
+        width: 96px;
+      }
+      #button-demo {
+        background-color: #2a7ae4;
+        margin: 0.5rem 0.5rem;
+        border: 1px solid #2a7ae4;
+        box-sizing: border-box;
+        font-size: 14px;
+        color: white;
+        height: 40px;
+        width: 96px;
+      }
+    
+}
+/*MOBILE*/
+@media only screen and (max-width: 550px) {
+    #experience-section {
+        width: 100%;
+        padding: 0rem 2rem;
+        background-color: #f5f5f5;
+      }
+     
+      #div-left{
+        display: flex;
+        flex-direction: column;
+      }
+      #div-right{
+        display: flex;
+        flex-flow: column-reverse  wrap-reverse;
+      }
+      #experience-section div div img {
+        width: 100%;
+        height: auto;
+      }
+      #buttons h3 {
+        font-size: 22px;
+        font-weight: 700;
+      }
+      #buttons {
+          justify-content: start;
+          margin-top: 0px;
+          margin-left:0px;
+      }
+      #button-repo {
+        margin: 0.5rem 0rem;
+        border: 1px solid #2a7ae4;
+        box-sizing: border-box;
+        font-size: 14px;
+        color: #2a7ae4;
+        height: 40px;
+        width: 96px;
+      }
+      #button-demo {
+        background-color: #2a7ae4;
+        margin: 0.5rem 0.5rem;
+        border: 1px solid #2a7ae4;
+        box-sizing: border-box;
+        font-size: 14px;
+        color: white;
+        height: 40px;
+        width: 96px;
+      }
+}
