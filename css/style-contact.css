@@ -12,7 +12,9 @@
       }
       #contact-img {
         background-image: url("../images/contact/contacto.png");
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
         width: 90%;
         height: auto;
       }

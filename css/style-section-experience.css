@@ -69,7 +69,7 @@
       }
       #div-right{
         display: flex;
-        flex-flow: column-reverse  wrap-reverse;
+        flex-flow: column-reverse;
       }
       #experience-section div div img {
         width: 100%;
