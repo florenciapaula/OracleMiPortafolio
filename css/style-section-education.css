@@ -9,7 +9,7 @@
         background-color: #eaf2fd;
       }
       #education-div{
-        padding: 2rem 6rem;
+        padding: 2rem 2rem;
         display:grid;
         grid-template-columns: 30% 30% 30%;
         justify-content: space-between;
@@ -21,8 +21,7 @@
       #education-div-img img{
         display:block;
         margin: auto;
-        width: 80%;
-        padding:2rem 0rem;
+        width: 90%;
       }
       #label-div p:first-child{
         padding:1rem 0rem;
@@ -45,12 +44,6 @@
       }
       #education-div-img{
         background-color: white;
-      }
-      #education-div-img img{
-        display:block;
-        margin: auto;
-        width: 50%;
-        padding:2rem 0rem;
       }
       #label-div p:first-child{
         padding:1rem 0rem 0rem 0rem;
@@ -79,12 +72,7 @@
       #education-div-img{
         background-color: white;
       }
-      #education-div-img img{
-        display:block;
-        margin: auto;
-        width: 50%;
-        padding:2rem 0rem;
-      }
+
       #label-div p:first-child{
         padding:1rem 0rem 0rem 0rem;
         font-size: 16px;
