@@ -291,12 +291,12 @@
           <p>Trabajo práctico curso Codo a Codo</p>
           <button
             id="button-repo"
-            onclick="window.open('https://github.com/florenciapaula/webdesignbyflor','_blank')"
+            onclick="window.open('https://github.com/florenciapaula/TPOFrontEnd','_blank')"
           >
             Repositorio</button
           ><button
             id="button-demo"
-            onclick="window.open('https://templatewebdesignbyflor.netlify.app/','_blank')"
+            onclick="window.open('https://mydonutstpo.netlify.app/','_blank')"
           >
             Ver demo
           </button>
@@ -322,14 +322,16 @@
             posible.
           </p>
 
-          <input placeholder="Nombre" type="text" id="nombre" /><br />
-          <input placeholder="E-mail" id="mail" type="text" /><br />
-          <input placeholder="Asunto" type="text" id="subject" /><br />
+          <input placeholder="Nombre" type="text" id="nombre" maxlength="50" required/><br />
+          <input placeholder="E-mail" id="mail" type="text" required /><br />
+          <input placeholder="Asunto" type="text" id="subject" maxlength="50" required /><br />
+
           <textarea
             placeholder="Mensaje"
             cols="30"
             rows="10"
-            id="comentarios"
+            id="comentarios" maxlength="300" 
+            required
           ></textarea>
           <button type="submit" value="Enviar" onClick="return validacion();">
             Enviar mensaje
