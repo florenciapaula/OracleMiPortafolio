@@ -76,6 +76,7 @@
   }
 
   form button {
+    display:block;
     background-color: #2a7ae4;
     margin-top: 2rem;
     border: 1px solid #2a7ae4;
